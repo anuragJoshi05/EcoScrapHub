@@ -1,0 +1,25 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
