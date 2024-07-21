@@ -2,24 +2,60 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
   color: #333;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #007bff;
-}
-
-p {
-  font-size: 1.2rem;
-  color: #555;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
   margin-bottom: 2rem;
 }
 
-.search-bar {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+.welcome-title {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.welcome-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 1rem;
+  width: 300px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .welcome-title {
+    font-size: 2rem;
+  }
+
+  .welcome-text {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
 }
